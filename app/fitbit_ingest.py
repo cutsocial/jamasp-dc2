@@ -57,7 +57,6 @@ Notes:
 
     all the data is ingested into BigQuery tables.
 
-    there is currently no protection for these routes.
 
 """
 
@@ -1397,14 +1396,16 @@ def fitbit_heart_rate_scope():
                     {
                         "name": "id",
                         "type": "STRING",
-                        "mode": "REQUIRED",
-                        "description": "Primary Key"
+                        "description": "Primary Key",
                     },
                     {
                         "name": "date",
                         "type": "DATE",
-                        "mode": "REQUIRED",
-                        "description": "The date values were extracted"
+                        "description": "The date values were extracted",
+                    },
+                    {
+                        "name": "datetime",
+                        "type": "TIMESTAMP",
                     },
                     {
                         "name": "value",
