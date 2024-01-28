@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     # Uncomment below and specify a GCS bucket for TF state.
-    # bucket = "PROJECT_ID-tfstate"
+    bucket = "jamaspdc-tfstate"
     prefix = "env/dev"
   }
 }
