@@ -24,6 +24,13 @@ terraform {
       version = "~>5.0"
     }
   }
+  cloud {
+    organization = "Cut-Social"
+
+    workspaces {
+      name = "Jamasp-DC2"
+    }
+  }
 }
 
 provider "google" {

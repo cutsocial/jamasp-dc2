@@ -125,15 +125,15 @@ html_sidebars = {
 html_theme_options = {
     "description": "Integrating Fitbit with GCP",
     "github_button": False,
-    "github_user": "lila",
-    "github_repo": "alabaster",
+    "github_user": "cutsocial",
+    "github_repo": "jamasp-dc2",
     "fixed_sidebar": True,
     "logo": "logo.png",
     "logo_name": True,
     "show_powered_by": False,
 }
 
-releases_github_path = "bitprophet/alabaster"
+releases_github_path = "cutsocial/jamasp-dc2"
 # Our pre-0.x releases are unstable / mix bugs+features
 releases_unstable_prehistory = True
 
